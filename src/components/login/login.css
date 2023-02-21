@@ -1,0 +1,290 @@
+*{
+    font-family:  'Happy Monkey';
+
+
+
+}
+
+.left-div{
+width: 500px;
+height: 850px;
+border-color: rgb   (201, 16, 16);
+background-color:white  ;
+display: inline-block;
+float: left;
+text-align: center;
+justify-content: center;
+
+}
+
+.welcome{
+    background-color:white;
+    height: 30px;
+    width: 100%;
+    text-align:center;
+    justify-content:center;
+}
+.sub-head{
+  
+margin-top:30px;
+    height: 60px;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 60px;
+  }
+  #ball_image{
+    height: 40px;
+    width: 40px;
+    padding-right: 230px; }
+    .login-div{
+
+        padding-top: 100px;
+       
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+    @media screen and (max-width:400px){
+        .right-div{
+            background-color: rgb(241, 237, 237);
+    
+        }
+    }
+
+    .login-box-one{
+
+        background-color: azure;
+        border-radius: 2px;
+    
+    }
+    
+    .inputBox{
+        position: relative;
+        background-color:white;
+        align-items: center;
+        border-radius: 20px;
+        width: 400px;
+        margin-left: -80px;
+        
+    display: flex;
+    padding-left: 15% }
+    .inputBox input{
+        
+       width: 80%;
+       padding: 13px;   
+       border: 1px solid blue; 
+        border-radius: 5px;
+        outline: none;
+        color: rgb(232, 15, 15);
+        font-size: 1em;
+        
+    }
+    .inputBox span{
+    
+        position: absolute;
+        left: 0;
+        padding: 100px;
+        pointer-events: none;
+        font-size: 0.6em;
+        color: rgb(71, 42, 165);
+        text-transform: uppercase;
+        transition: 0.5s
+    
+    }
+    .inputBox input:valid ~span{
+        padding-left: 50%;
+        
+        color: rgb(6, 222, 255);
+        transform: translateX(-143px) translateY(-50px);
+        font-size: 0.65em;
+        padding: 0 225px;
+       
+        border-left:1px solid blanchedalmond;
+        border-right: 1px solid blanchedalmond;
+     }
+    
+     .inputBoxpass{
+        position: relative;
+        background-color:white;
+        align-items: center;
+        border-radius: 20px;
+        padding-top: 20px;
+        width: 400px;
+        margin-left: -80px;
+        
+    display: flex;
+    padding-left: 15% }
+    .inputBoxpass input{
+        
+       width: 80%;
+       padding: 13px;   
+       border: 1px solid blue; 
+        border-radius: 5px;
+        outline: none;
+        color: rgb(232, 15, 15);
+        font-size: 1em;
+    }
+    .inputBoxpass span{
+    
+        position: absolute;
+        left: 0;
+        padding: 100px;
+        pointer-events: none;
+        font-size: 0.6em;
+        color: rgb(71, 42, 165);
+        text-transform: uppercase;
+        transition: 0.5s
+    
+    }
+    .inputBoxpass input:valid ~span{
+        padding-left: 50%;
+        
+        color: rgb(6, 222, 255);
+        transform: translateX(-143px) translateY(40px);
+        font-size: 0.65em;
+        padding: 0 225px;
+       
+        border-left:1px solid blanchedalmond;
+        border-right: 1px solid blanchedalmond;
+     }
+    
+    
+    
+    
+    .button-5 {
+      align-items: center;
+      background-clip: padding-box;
+      background-color: #fa6400;
+      border: 1px solid transparent;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 1.25;
+      margin: 0;
+      min-height: 3rem;
+      padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+      position:relative;
+      text-decoration: none;
+      transition: all 250ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      width: auto;
+      margin-left: 240px;
+      margin-top: 30px;
+    
+    }
+    
+    .button-5:hover,
+    .button-5:focus {
+      background-color: #fb8332;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    }
+    
+    .button-5:hover {
+      transform: translateY(-1px);
+    }
+    
+    .button-5:active {
+      background-color: #c85000;
+      box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+      transform: translateY(0);
+    }
+    
+    .button-43 {
+        background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+        border-radius: .5rem;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        font-size: 16px;
+        justify-content: center;
+        padding: 1rem 1.75rem;
+        text-decoration: none;
+        width: 15%;
+        height: 20px    ;
+        border: 0;      
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        margin-left: 240px;
+        margin-top: -40px;
+
+      }
+      
+      .button-43:hover {
+        background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+      }
+      
+      @media (min-width: 768px) {
+        .button-43 {
+          padding: 1rem 3rem;
+          align-items: center;
+        }
+      }
+    .signup-text{
+    
+    margin-top: 200px;
+    
+    }
+    
+    .button-23 {
+        background-color: #FFFFFF;
+        border: 1px solid #222222;
+        border-radius: 8px;
+        box-sizing: border-box;
+        color: #222222;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        padding: 13px 23px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        touch-action: manipulation;
+        transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+        user-select: none;
+        -webkit-user-select: none;
+        width: auto;
+        
+      }
+      
+      .button-23:focus-visible {
+        box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+        transition: box-shadow .2s;
+      }
+      
+      .button-23:active {
+        background-color: #F7F7F7;
+        border-color: #000000;
+        transform: scale(.96);
+      }
+      
+      .button-23:disabled {
+        border-color: #DDDDDD;
+        color: #DDDDDD;
+        cursor: not-allowed;
+        opacity: 1;
+      }
+    .otp_login{
+      margin-left: 100px;
+      margin-top: 19px;
+    }

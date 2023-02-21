@@ -1,0 +1,17 @@
+.right-div{
+    width: 1110px;
+    height: 850px;
+    background-image: url('https://images.unsplash.com/photo-1631194758628-71ec7c35137e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3JpY2tldHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    height: 850px;
+    float: right;
+    display: inline-block;
+    display: flex;
+    right: 0px;
+    top: 0px;
+    margin-top: -150px;
+    margin-left: 20px;
+    position:fixed;
+
+}    
